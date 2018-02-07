@@ -5,7 +5,7 @@
 #include "gtest\gtest.h"
 
 namespace TEST_GTEST {
-	int add(const int a, const int b);
+	int Add(const int a, const int b);
 }
 
 #endif //TESTTOOLS_TESTGTEST_H_
