@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "testGTest.h"
-#include "testExcel.h"
+//#include "testExcel.h"
+#include "testCplex.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
@@ -9,8 +10,12 @@ int _tmain(int argc, _TCHAR* argv[])
 		RUN_ALL_TESTS();
 	}
 	
-	{	//test Microsoft Excel
-		TEST_EXCEL::ExportExcel();
+	//{	//test Microsoft Excel
+	//	TEST_EXCEL::ExportExcel();
+	//}
+
+	{	//test CPLEX
+		TEST_CPLEX::testCplex();
 	}
 
 	getchar();

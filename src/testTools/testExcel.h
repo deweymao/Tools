@@ -1,7 +1,7 @@
 #ifndef TESTTOOLS_TESTEXCEL_H_
 #define TESTTOOLS_TESTEXCEL_H_
 
-#include "excel/excelTypeLibs.h"
+#include "excel\excelTypeLibs.h"
 
 namespace TEST_EXCEL {
 	struct com_t { 

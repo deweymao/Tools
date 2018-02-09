@@ -27,7 +27,7 @@
     <ClInclude Include="testGTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="testExcel.h">
+    <ClInclude Include="testCplex.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -41,7 +41,7 @@
     <ClCompile Include="testGTest.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="testExcel.cpp">
+    <ClCompile Include="testCplex.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
