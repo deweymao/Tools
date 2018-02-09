@@ -2,6 +2,7 @@
 #include "testGTest.h"
 #include "testExcel.h"
 #include "testCplex.h"
+#include "testCGAL.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
