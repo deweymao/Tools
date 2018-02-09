@@ -166,6 +166,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="testCplex.h" />
+    <ClInclude Include="testExcel.h" />
     <ClInclude Include="testGTest.h" />
   </ItemGroup>
   <ItemGroup>
@@ -176,6 +177,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="testCplex.cpp" />
+    <ClCompile Include="testExcel.cpp" />
     <ClCompile Include="testGTest.cpp" />
     <ClCompile Include="testTools.cpp" />
   </ItemGroup>
