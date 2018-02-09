@@ -19,8 +19,7 @@ ipch/
 *.pgc  
 *.pgd  
 *.rsp  
-*.sbr  
-*.tlb  
+*.sbr   
 *.tli  
 *.tlh  
 *.tmp  
