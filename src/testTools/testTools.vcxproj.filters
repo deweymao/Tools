@@ -39,6 +39,9 @@
     <ClInclude Include="testBoost.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="testOpengl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -60,6 +63,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="testBoost.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="testOpengl.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -93,14 +93,14 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;IL_STD;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\include;..\..\include\gtest;..\..\include\excel;..\..\include\cplex;..\..\include\boost;..\..\include\cgal\gmp;..\..\include\cgal</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\gtest;..\..\include\excel;..\..\include\cplex;..\..\include\boost;..\..\include\cgal\gmp;..\..\include\cgal;..\..\include\opengl_freeglut_glew</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\..\lib\$(Configuration)\$(Platform)\gtest_1_7_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cplex_1263_vs2012;..\..\lib\$(Configuration)\$(Platform)\boost_1_59_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012\gmp;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>cplex1263.lib;ilocplex.lib;concert.lib;libgmp-10.lib;libmpfr-4.lib;gtestd.lib;gtest_maind.lib;libgmp-10.lib;libmpfr-4.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\lib\$(Configuration)\$(Platform)\gtest_1_7_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cplex_1263_vs2012;..\..\lib\$(Configuration)\$(Platform)\boost_1_59_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012\gmp;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012;..\..\lib\$(Configuration)\$(Platform)\opengl_freeglut281_glew210_vs2012;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex1263.lib;ilocplex.lib;concert.lib;libgmp-10.lib;libmpfr-4.lib;gtestd.lib;gtest_maind.lib;freeglut.lib;glew32d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -110,13 +110,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;IL_STD;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\include;..\..\include\gtest;..\..\include\excel;..\..\include\cplex;..\..\include\boost;..\..\include\cgal\gmp;..\..\include\cgal</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\gtest;..\..\include\excel;..\..\include\cplex;..\..\include\boost;..\..\include\cgal\gmp;..\..\include\cgal;..\..\include\opengl_freeglut_glew</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>..\..\lib\$(Configuration)\$(Platform)\gtest_1_7_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cplex_1263_vs2012;..\..\lib\$(Configuration)\$(Platform)\boost_1_59_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012\gmp;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>cplex1263.lib;ilocplex.lib;concert.lib;libgmp-10.lib;libmpfr-4.lib;gtestd.lib;gtest_maind.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\lib\$(Configuration)\$(Platform)\gtest_1_7_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cplex_1263_vs2012;..\..\lib\$(Configuration)\$(Platform)\boost_1_59_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012\gmp;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012;..\..\lib\$(Configuration)\$(Platform)\opengl_freeglut281_glew210_vs2012;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex1263.lib;ilocplex.lib;concert.lib;libgmp-10.lib;libmpfr-4.lib;gtestd.lib;gtest_maind.lib;freeglut.lib;glew32d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -128,15 +128,15 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;IL_STD;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\include;..\..\include\gtest;..\..\include\excel;..\..\include\cplex;..\..\include\boost;..\..\include\cgal\gmp;..\..\include\cgal</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\gtest;..\..\include\excel;..\..\include\cplex;..\..\include\boost;..\..\include\cgal\gmp;..\..\include\cgal;..\..\include\opengl_freeglut_glew</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\..\lib\$(Configuration)\$(Platform)\gtest_1_7_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cplex_1263_vs2012;..\..\lib\$(Configuration)\$(Platform)\boost_1_59_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012\gmp;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>cplex1263.lib;ilocplex.lib;concert.lib;libgmp-10.lib;libmpfr-4.lib;gtest.lib;gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\lib\$(Configuration)\$(Platform)\gtest_1_7_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cplex_1263_vs2012;..\..\lib\$(Configuration)\$(Platform)\boost_1_59_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012\gmp;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012;..\..\lib\$(Configuration)\$(Platform)\opengl_freeglut281_glew210_vs2012;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex1263.lib;ilocplex.lib;concert.lib;libgmp-10.lib;libmpfr-4.lib;gtest.lib;gtest_main.lib;freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -148,15 +148,15 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;IL_STD;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;CGAL_USE_MPFR;CGAL_USE_GMP;BOOST_ALL_DYN_LINK;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\..\include;..\..\include\gtest;..\..\include\excel;..\..\include\cplex;..\..\include\boost;..\..\include\cgal\gmp;..\..\include\cgal</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\include;..\..\include\gtest;..\..\include\excel;..\..\include\cplex;..\..\include\boost;..\..\include\cgal\gmp;..\..\include\cgal;..\..\include\opengl_freeglut_glew</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>..\..\lib\$(Configuration)\$(Platform)\gtest_1_7_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cplex_1263_vs2012;..\..\lib\$(Configuration)\$(Platform)\boost_1_59_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012\gmp;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>cplex1263.lib;ilocplex.lib;concert.lib;libgmp-10.lib;libmpfr-4.lib;gtest.lib;gtest_main.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\lib\$(Configuration)\$(Platform)\gtest_1_7_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cplex_1263_vs2012;..\..\lib\$(Configuration)\$(Platform)\boost_1_59_0_vs2012;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012\gmp;..\..\lib\$(Configuration)\$(Platform)\cgal_4_9_vs2012;..\..\lib\$(Configuration)\$(Platform)\opengl_freeglut281_glew210_vs2012;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>cplex1263.lib;ilocplex.lib;concert.lib;libgmp-10.lib;libmpfr-4.lib;gtest.lib;gtest_main.lib;freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
@@ -170,6 +170,7 @@
     <ClInclude Include="testCplex.h" />
     <ClInclude Include="testExcel.h" />
     <ClInclude Include="testGTest.h" />
+    <ClInclude Include="testOpengl.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -183,6 +184,7 @@
     <ClCompile Include="testCplex.cpp" />
     <ClCompile Include="testExcel.cpp" />
     <ClCompile Include="testGTest.cpp" />
+    <ClCompile Include="testOpengl.cpp" />
     <ClCompile Include="testTools.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
